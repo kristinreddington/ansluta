@@ -56,7 +56,7 @@ end
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'rspec-rails', '~> 3.8'
-  gem 'factory_girl_rails'
+  gem "factory_bot_rails"
   gem 'rails-controller-testing'
   gem 'headless'
   gem 'poltergeist'
