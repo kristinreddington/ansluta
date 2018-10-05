@@ -63,10 +63,19 @@ nav {
   background: white !important;
 }
 
+.non-signed-in-links {
+  float: left;
+}
+
+.navbar-collapse {
+  margin-left: 200px; 
+}
+
 .navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
   background: $navbarColor !important;
   border: none;
   a {
     color: white !important;
+
   }
 }
