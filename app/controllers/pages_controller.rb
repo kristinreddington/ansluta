@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
   def index
-  end 
+    @posts = Post.limit(10)
+  end
 
 end
